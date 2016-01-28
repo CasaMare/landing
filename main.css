@@ -1,10 +1,11 @@
-﻿header{
+﻿/*header start*/
+header{
     background-image: url("img/hero-img.jpg");
     color:#FFF;
-    padding-bottom:250px;
+    padding-bottom:205px;
 }
 header h1{
-    margin-top:250px;
+    margin-top:240px;
 }
 header span{
     background-color:rgba(50,50,50,0.5);
@@ -26,4 +27,49 @@ nav{
     color:#459dc3;
     border:2px solid #459dc3;
 }
+/*header end*/
 
+/*services start*/
+.section-services{
+    background-color:#4bcaff;
+    color:#FFF;
+    padding-top:80px;
+    padding-bottom:80px;
+
+}
+.section-services p{
+    font-size:10px;
+}
+.services{
+    margin-top:35px;
+}
+.line{
+    width:45px;
+    border:1px solid #FFF;
+}
+.coffee{
+    width:34px;
+    height:49px;
+    background-image: url("img/spritesheet.png");
+    background-position:-5px 54px;
+}
+.instant{
+    width:48px;
+    height:48px;
+    background-image: url("img/spritesheet.png");
+    background-position:-5px -53px;
+}
+.serious{
+    width:47px;
+    height:46px;
+    background-image: url("img/spritesheet.png");
+    background-position:-5px -106px;
+}
+.frame{
+    width:48px;
+    height:48px;
+    background-image: url("img/spritesheet.png");
+    background-position:-5px 0;
+}
+
+/*services end*/
